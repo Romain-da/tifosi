@@ -1,0 +1,9 @@
+id_focaccia,nom_focaccia,prix,ingrédients
+1,Mozaccia,9.80,"Base tomate, Mozarella, cresson, jambon fumé, ail, artichaut, champignon, parmesan, poivre, olive noire"
+2,Gorgonzollaccia,10.80,"Base tomate, Gorgonzola, cresson, ail, champignon, parmesan, poivre, olive noire"
+3,Raclaccia,8.90,"Base tomate, raclette, cresson, ail, champignon, parmesan, poivre"
+4,Emmentalaccia,9.80,"Base crème, Emmental, cresson, champignon, parmesan, poivre, oignon"
+5,Tradizione,8.90,"Base tomate, Mozarella, cresson, jambon cuit, champignon, parmesan, poivre, olive noire, olive verte"
+6,Hawaienne,11.20,"Base tomate, Mozarella, cresson, bacon, ananas, piment, parmesan, poivre, olive noire"
+7,Américaine,10.80,"Base tomate, Mozarella, cresson, bacon, pomme de terre, parmesan, poivre, olive noire"
+8,Paysanne,12.80,"Base crème, Chèvre, cresson, pomme de terre, jambon fumé, ail, artichaut, champignon, parmesan, poivre, olive noire, œuf"
