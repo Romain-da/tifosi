@@ -36,7 +36,7 @@ echo "Chemin du fichier CSV: $file<br>";
 // Vérification si le fichier existe
 if (!file_exists($file)) {
     echo "Le fichier CSV n'existe pas à l'emplacement spécifié: " . $file . "<br>";
-    exit; // Utiliser exit pour arrêter l'exécution du script
+    exit; 
 }
 
 echo "Fichier CSV trouvé<br>";
@@ -46,7 +46,7 @@ $handle = fopen($file, "r");
 
 if (!$handle) {
     echo "Impossible d'ouvrir le fichier CSV: " . $file . "<br>";
-    exit; // Utiliser exit pour arrêter l'exécution du script
+    exit; 
 }
 
 echo "Fichier CSV ouvert<br>";
@@ -54,7 +54,7 @@ echo "Fichier CSV ouvert<br>";
 // Ignorer la première ligne (en-têtes)
 if (!fgetcsv($handle, 1000, ",")) {
     echo "Impossible de lire la première ligne du fichier CSV.<br>";
-    exit; // Utiliser exit pour arrêter l'exécution du script
+    exit; 
 }
 
 echo "Première ligne ignorée<br>";
